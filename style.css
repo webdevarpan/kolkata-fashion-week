@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-image: url(../images/hero-section/back-ground.svg);
+  background-image: url(images/hero-section/back-ground.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
