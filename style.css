@@ -1,0 +1,417 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+/*======================= Root start ========================== */
+:root {
+  --red--color: #ef2c2c;
+  --Montserrat--font: Montserrat;
+  --sechond--font--family: "Playfair Display", serif;
+}
+
+/*======================= Root end ========================== */
+/*======================= hero start ======================== */
+body {
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
+
+.header {
+  background-image: url(../images/hero-section/back-ground.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 700px;
+}
+
+.nav-link {
+  color: #fff;
+  margin: 0px 10px;
+  font-family: var(--Montserrat--font);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.hero-section {
+  margin-top: 90px;
+}
+
+.hero-header {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.hero-para {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--Montserrat--font);
+}
+
+.hero-section span {
+  font-family: var(--Montserrat--font);
+  font-size: 24px;
+  font-weight: 700;
+  color: #ef2c2c;
+}
+
+.hero-para {
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+}
+
+.first-btn {
+  width: 253px;
+  height: 62px;
+  background: #ef2c2c;
+  color: #fff;
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.seccond-btn {
+  width: 253px;
+  height: 62px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #ef2c2c;
+}
+.first-btn + .seccond-btn{
+  margin-top: 20px;
+}
+.play-icon img {
+  margin-top: 160px;
+}
+
+/*======================= hero end ======================== */
+/*======================= about start ===================== */
+.about {
+  margin-top: 90px;
+  background-color: #000;
+height: 390px;
+
+
+}
+
+.inner-about {
+  margin-top: 44px;
+  background-image: url(../images/about-section/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-head {
+  font-family: var(--sechond--font--family);
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 70px;
+  color: #fff;
+}
+
+.about-para {
+  margin-top: 90px;
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 122px;
+}
+.about-text img{
+  margin-left: 94px;
+}
+.about-image img{
+  margin-left: -182px;
+}
+/*======================= about end ===================== */
+/*======================= why choose start ===================== */
+.why-choose {
+  background-image: url(../images/why-choose-section/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  background-color: #000;
+  width: 100vw;
+  height: 600px;
+}
+
+.why-choose-head {
+  font-family: var(--sechond--font--family);
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.why-choose-para {
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: left;
+  color: #fff;
+}
+
+.btn-1 {
+  width: 253px;
+  height: 62px;
+  background-color: var(--red--color);
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn-2 {
+  border: 2px solid #ef2c2c;
+  width: 253px;
+  height: 62px;
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 700;
+  color: #0df39b;
+  margin-left: 9px;
+}
+
+.why-choose-section img {
+  margin-left: 390px;
+  
+}
+.why-choose-section{
+  margin-top: 80px;
+}
+.why-choose-image img {
+  margin-top: -89px;
+}
+
+.why-choose {
+  margin-top: 90px;
+}
+.btn-22{
+  width: 253px;
+height: 62px;
+border: 2px;
+border: 2px solid #EF2C2C;
+color: #FFFFFF;
+
+}
+.btn-22 i{
+  
+color: #FFFFFF;
+
+}
+/*======================= why choose end===================== */
+/*======================= gallery section start===================== */
+.gallery-image img {
+  margin-right: 2px;
+}
+
+.gallery-section {
+  background-image: url(../images/gallery-section/Untitled-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  width: 100vw;
+  height: 400px;
+  margin-top: 120px;
+}
+
+.gallery-header {
+  font-family: var(--sechond--font--family);
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.gallery-para {
+  font-family: var(--Montserrat--font);
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.gallery-1 {
+  margin-top: 150px;
+}
+
+.gallery-2 {
+  margin-top: 150px;
+}
+
+.get-in-touch-image {
+  margin-left: 4px;
+}
+
+.venue-header {
+  margin-left: -203px;
+}
+
+.park-para {
+  margin-left: -203px;
+}
+
+/*======================= gallery section end===================== */
+/*======================= get in touch section start============== */
+
+.get-in-touch-header {
+  font-family: var(--sechond--font--family);
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.get-in-touch-image {
+  margin-left: 184px;
+}
+
+.from-section {
+  margin-top: 80px;
+}
+
+.from {
+  border: 0px solid;
+  background: #efeeee;
+  padding: 45px 4px;
+}
+.form-control::placeholder {
+  color: rgb(0, 0, 0);
+ 
+}
+
+
+
+
+
+
+.from-input {
+  width: 700px;
+}
+
+.from-input input {
+  margin: 0px 17px;
+  width: 700px;
+}
+
+#exampleFormControlTextarea1 {
+  width: 700px;
+
+  margin: 0px 17px;
+}
+
+.from-image img {
+  height: 400px;
+  margin-left: 50px;
+}
+
+.from button {
+  width: 253px;
+  height: 62px;
+  background-color: #ef2c2c;
+  font-family: var(--Montserrat--font);
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+/*======================= get in touch section end================ */
+/*======================= footer section start===================== */
+
+.footer {
+  background-color: #000;
+  margin-top: 90px;
+}
+
+.footer-para {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.footer-logo img {
+  margin-left: 38%;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================= footer section start===================== */
+
+@media only screen and (min-width: 400px) and (max-width: 900px) {
+  .header{
+    height: 900px;
+  }
+ .hero-btn{
+  display: flex;
+  flex-direction: column;
+ }
+.play-icon{
+  display: none;
+}
+.why-choose-section {
+  display: none;
+}
+.about{
+  display: none;
+}
+
+.why-choose-image{
+  display: none;
+}
+
+.why-choose{
+  height: 750px;
+}
+.why-choose-btn .btn{
+  margin: 8px 0px;
+}
+.from-image{
+  display: none;
+}
+.gallery-section{
+  display: none;
+}
+.from-input input {
+  margin: 0px 17px;
+  width: 406px;
+}
+#exampleFormControlTextarea1 {
+  width: 407px;
+  margin: 0px 17px;
+}
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 986px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
